@@ -5,10 +5,11 @@ public class Execution {
 	public static void main(String[] args) {
 		
 		// call variables fromclass1
-		Class1 objectvar = new Class1();
+		Class1 objectvar = new Class1(2017);
 		objectvar.differentclass();
+		System.out.println(objectvar.year);
 		//Constructor
-		Class1 objectcons = new Class1(2017);
+		
 		//Object Creation 
 		Class1 object = new Class1 ();
 		System.out.println(object.name);

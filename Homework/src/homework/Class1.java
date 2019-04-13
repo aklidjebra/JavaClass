@@ -15,7 +15,7 @@ System.out.println(price +" " +model+" "+diesel);
 	public Class1() {}
 	public Class1(int year) {
 		this.year=year;
-		System.out.println(year);
+
 		//void method
 		
 	}
